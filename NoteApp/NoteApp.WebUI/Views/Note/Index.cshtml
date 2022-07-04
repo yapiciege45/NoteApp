@@ -1,0 +1,57 @@
+@{
+    Layout = "_Layout";
+}
+
+@model Note
+
+<div class="field">
+    <canvas id="canvas" style="background: url(@Model.ImgUrl);"></canvas>
+    <div class="tools">
+        <button onclick="undoLast()" type="button" class="button">Undo</button>
+        <button onclick="clearCanvas()" type="button" class="button">Clear</button>
+
+        <div onclick="changeColor(this)" class="color-field" style="background: red;"></div>
+        <div onclick="changeColor(this)" class="color-field" style="background: blue;"></div>
+        <div onclick="changeColor(this)" class="color-field" style="background: green;"></div>
+        <div onclick="changeColor(this)" class="color-field" style="background: yellow;"></div>
+        <div onclick="changeColor(this)" class="color-field" style="background: black;"></div>
+
+        <input onInput="draw_color = this.value" type="color" class="color-picker">
+        <input onInput="draw_width = this.value" type="range" min="1" max="10" class="pen-range">
+
+        <button type="submit" onclick="exportImg()" class="button btn-success" data-toggle="modal"
+            data-target="#exampleModal" data-toggle="modal" data-target="#exampleModal">Save</button>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Edit Note</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form method="POST">
+                            <input type="hidden" name="NoteId" value="@Model.NoteId">
+                            <input type="hidden" id="ImgURL" name="ImgUrl">
+                            <div class="form-floating mb-3">
+                                <label class="mb-2">Name</label>
+                                <input type="text" class="form-control" name="Name" value="@Model.Name">
+                            </div>
+                            <div class="form-floating mb-3">
+                                <label class="mb-2">Description</label>
+                                <input type="text" class="form-control" name="Description" value="@Model.Description">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

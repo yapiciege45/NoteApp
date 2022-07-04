@@ -1,0 +1,11 @@
+@{
+    Layout = "_Layout";
+}
+
+@await Html.PartialAsync("_navbar")
+<main class="container p-5 mx-auto" style="min-height: 817px;">
+    @await Component.InvokeAsync("Notes")
+    @await Html.PartialAsync("_createbutton")
+    @await Html.PartialAsync("_createmodal")
+</main>
+@await Html.PartialAsync("_footer")

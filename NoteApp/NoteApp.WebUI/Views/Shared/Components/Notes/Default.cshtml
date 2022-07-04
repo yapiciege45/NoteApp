@@ -1,0 +1,29 @@
+@using NoteApp.Data
+@model List<Note>
+
+@await Html.PartialAsync("_alert", Model)
+
+@foreach (var note in Model)
+{
+    <div class="note m-3 row mx-auto p-3">
+        <a type="submit" href="/home/publish/@note.NoteId" class="col-md-9 col-6">@note.Name
+            <i class="fa-solid fa-share-nodes"></i></a>
+
+
+        <form method="POST" action="/home/delete">
+            <a href="@note.ImgUrl" onclick="openImg(this)" class="fa-solid fa-eye col-md-1 col-2 fa-ms"></a>
+            <a href="/note/index/@note.NoteId" class="fa-solid fa-pen col-md-1 col-2 fa-ms"></a>
+            <input type="hidden" name="NoteId" value="@note.NoteId">
+            <button type="submit" style="background: transparent; border: none !important;"><a
+                class="fa-solid fa-trash col-md-1 col-2 fa-ms"></a></button>
+        </form>
+    </div>
+}
+
+<script>
+    function openImg(element) {
+        var href = element.href;
+        var win = window.open();
+        win.document.write('<iframe src="' + href + '" frameborder="0" style="border:0; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%;" allowfullscreen></iframe>');
+    }
+</script>

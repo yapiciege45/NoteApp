@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\yapic\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\yapic\\.nuget\\packages"
+    ]
+  }
+}

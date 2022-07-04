@@ -1,0 +1,17 @@
+C:\Users\yapic\Desktop\NoteApp\NoteApp.Business\bin\Debug\net5.0\NoteApp.Business.deps.json
+C:\Users\yapic\Desktop\NoteApp\NoteApp.Business\bin\Debug\net5.0\NoteApp.Business.dll
+C:\Users\yapic\Desktop\NoteApp\NoteApp.Business\bin\Debug\net5.0\NoteApp.Business.pdb
+C:\Users\yapic\Desktop\NoteApp\NoteApp.Business\bin\Debug\net5.0\NoteApp.Data.dll
+C:\Users\yapic\Desktop\NoteApp\NoteApp.Business\bin\Debug\net5.0\NoteApp.Entity.dll
+C:\Users\yapic\Desktop\NoteApp\NoteApp.Business\bin\Debug\net5.0\NoteApp.Data.pdb
+C:\Users\yapic\Desktop\NoteApp\NoteApp.Business\bin\Debug\net5.0\NoteApp.Entity.pdb
+C:\Users\yapic\Desktop\NoteApp\NoteApp.Business\obj\Debug\net5.0\NoteApp.Business.csproj.AssemblyReference.cache
+C:\Users\yapic\Desktop\NoteApp\NoteApp.Business\obj\Debug\net5.0\NoteApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yapic\Desktop\NoteApp\NoteApp.Business\obj\Debug\net5.0\NoteApp.Business.AssemblyInfoInputs.cache
+C:\Users\yapic\Desktop\NoteApp\NoteApp.Business\obj\Debug\net5.0\NoteApp.Business.AssemblyInfo.cs
+C:\Users\yapic\Desktop\NoteApp\NoteApp.Business\obj\Debug\net5.0\NoteApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\yapic\Desktop\NoteApp\NoteApp.Business\obj\Debug\net5.0\NoteApp.Business.csproj.CopyComplete
+C:\Users\yapic\Desktop\NoteApp\NoteApp.Business\obj\Debug\net5.0\NoteApp.Business.dll
+C:\Users\yapic\Desktop\NoteApp\NoteApp.Business\obj\Debug\net5.0\refint\NoteApp.Business.dll
+C:\Users\yapic\Desktop\NoteApp\NoteApp.Business\obj\Debug\net5.0\NoteApp.Business.pdb
+C:\Users\yapic\Desktop\NoteApp\NoteApp.Business\obj\Debug\net5.0\ref\NoteApp.Business.dll

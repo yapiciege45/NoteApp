@@ -1,0 +1,199 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Business\\NoteApp.Business.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Business\\NoteApp.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Business\\NoteApp.Business.csproj",
+        "projectName": "NoteApp.Business",
+        "projectPath": "c:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Business\\NoteApp.Business.csproj",
+        "packagesPath": "C:\\Users\\yapic\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yapic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Data\\NoteApp.Data.csproj": {
+                "projectPath": "C:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Data\\NoteApp.Data.csproj"
+              },
+              "c:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Entity\\NoteApp.Entity.csproj": {
+                "projectPath": "c:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Entity\\NoteApp.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Data\\NoteApp.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Data\\NoteApp.Data.csproj",
+        "projectName": "NoteApp.Data",
+        "projectPath": "C:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Data\\NoteApp.Data.csproj",
+        "packagesPath": "C:\\Users\\yapic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yapic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "c:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Entity\\NoteApp.Entity.csproj": {
+                "projectPath": "c:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Entity\\NoteApp.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.14, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Entity\\NoteApp.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Entity\\NoteApp.Entity.csproj",
+        "projectName": "NoteApp.Entity",
+        "projectPath": "c:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Entity\\NoteApp.Entity.csproj",
+        "packagesPath": "C:\\Users\\yapic\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yapic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
