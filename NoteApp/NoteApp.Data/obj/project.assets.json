@@ -5319,11 +5319,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Data\\NoteApp.Data.csproj",
+      "projectUniqueName": "C:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Data\\NoteApp.Data.csproj",
       "projectName": "NoteApp.Data",
-      "projectPath": "c:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Data\\NoteApp.Data.csproj",
+      "projectPath": "C:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Data\\NoteApp.Data.csproj",
       "packagesPath": "C:\\Users\\yapic\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Data\\obj\\",
+      "outputPath": "C:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yapic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5340,8 +5340,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "c:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Entity\\NoteApp.Entity.csproj": {
-              "projectPath": "c:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Entity\\NoteApp.Entity.csproj"
+            "C:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Entity\\NoteApp.Entity.csproj": {
+              "projectPath": "C:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Entity\\NoteApp.Entity.csproj"
             }
           }
         }

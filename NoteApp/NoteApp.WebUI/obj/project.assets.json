@@ -6094,14 +6094,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "c:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Business\\NoteApp.Business.csproj": {
-              "projectPath": "c:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Business\\NoteApp.Business.csproj"
+            "C:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Business\\NoteApp.Business.csproj": {
+              "projectPath": "C:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Business\\NoteApp.Business.csproj"
             },
             "C:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Data\\NoteApp.Data.csproj": {
               "projectPath": "C:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Data\\NoteApp.Data.csproj"
             },
-            "c:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Entity\\NoteApp.Entity.csproj": {
-              "projectPath": "c:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Entity\\NoteApp.Entity.csproj"
+            "C:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Entity\\NoteApp.Entity.csproj": {
+              "projectPath": "C:\\Users\\yapic\\Desktop\\NoteApp\\NoteApp.Entity\\NoteApp.Entity.csproj"
             }
           }
         }

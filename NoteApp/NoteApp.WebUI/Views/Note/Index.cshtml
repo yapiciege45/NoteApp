@@ -5,16 +5,12 @@
 @model Note
 
 <div class="field">
-    <canvas id="canvas" style="background: url(@Model.ImgUrl);"></canvas>
+    <canvas id="canvas"></canvas>
+    <img style="display: none;" id="imgid" src="@Model.ImgUrl">
+
     <div class="tools">
         <button onclick="undoLast()" type="button" class="button">Undo</button>
         <button onclick="clearCanvas()" type="button" class="button">Clear</button>
-
-        <div onclick="changeColor(this)" class="color-field" style="background: red;"></div>
-        <div onclick="changeColor(this)" class="color-field" style="background: blue;"></div>
-        <div onclick="changeColor(this)" class="color-field" style="background: green;"></div>
-        <div onclick="changeColor(this)" class="color-field" style="background: yellow;"></div>
-        <div onclick="changeColor(this)" class="color-field" style="background: black;"></div>
 
         <input onInput="draw_color = this.value" type="color" class="color-picker">
         <input onInput="draw_width = this.value" type="range" min="1" max="10" class="pen-range">
